@@ -238,6 +238,43 @@ a:hover {
   font-weight: 500;
 }
 
+<<<<<<< HEAD
+=======
+.page-nav {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/* .page-nav:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+} */
+
+.page-nav a {
+  font-weight: 600;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.page-nav a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.page-nav a:hover::after {
+  width: 100%;
+}
+
+
+>>>>>>> 4792fb6f55a21cf1e762b92a9c03648437ddfe04
 /*
  =================  RESPONSIVENESS  =================
 */
